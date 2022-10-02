@@ -1,0 +1,8 @@
+--Update 0.1 (09/2022)
+--First  Update
+--Hello world message
+
+--Update 0.2 (10/02/2022)
+--Added kernal, bootloaders and FAT Support
+--Added test.img
+NOTE THAT THIS VERSION IS IN PROGRESS.
