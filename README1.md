@@ -13,4 +13,9 @@ Bootloader dir (src/bootloader):
     Our main OS, most assembly code is in here, Helps with bootloader and booting OS.
 
 Kernel dir (src/kernel):
-    
+    our os in the partial part, ya know what im saying?
+
+run.sh:
+    just runs the qemu cmd with this file
+
+
