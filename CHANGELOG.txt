@@ -6,3 +6,4 @@
 --Added kernal, bootloaders and FAT Support
 --Added test.img
 NOTE THAT THIS VERSION IS IN PROGRESS.
+THIS VERSION IS STILL IN PROGRESS.
