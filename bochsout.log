@@ -1,0 +1,90 @@
+00000000000i[      ] Bochs x86 Emulator 2.6.11
+00000000000i[      ]   Built from SVN snapshot on January 5, 2020
+00000000000i[      ]   Timestamp: Sun Jan  5 08:36:00 CET 2020
+00000000000i[      ] System configuration
+00000000000i[      ]   processors: 1 (cores=1, HT threads=1)
+00000000000i[      ]   A20 line support: yes
+00000000000i[      ] IPS is set to 4000000
+00000000000i[      ] CPU configuration
+00000000000i[      ]   SMP support: yes, quantum=16
+00000000000i[      ]   level: 6
+00000000000i[      ]   APIC support: xapic
+00000000000i[      ]   FPU support: yes
+00000000000i[      ]   MMX support: yes
+00000000000i[      ]   3dnow! support: no
+00000000000i[      ]   SEP support: yes
+00000000000i[      ]   SIMD support: sse2
+00000000000i[      ]   XSAVE support: no 
+00000000000i[      ]   AES support: no
+00000000000i[      ]   SHA support: no
+00000000000i[      ]   MOVBE support: no
+00000000000i[      ]   ADX support: no
+00000000000i[      ]   x86-64 support: yes
+00000000000i[      ]   1G paging support: no
+00000000000i[      ]   MWAIT support: yes
+00000000000i[      ] Optimization configuration
+00000000000i[      ]   RepeatSpeedups support: yes
+00000000000i[      ]   Fast function calls: yes
+00000000000i[      ]   Handlers Chaining speedups: yes
+00000000000i[      ] Devices configuration
+00000000000i[      ]   PCI support: i440FX i430FX i440BX
+00000000000i[      ]   Networking support: NE2000 E1000
+00000000000i[      ]   Sound support: no
+00000000000i[      ]   USB support: UHCI OHCI EHCI xHCI
+00000000000i[      ]   VGA extension support: vbe cirrus voodoo
+00000000000i[MEM0  ] allocated memory at 0x1194b1000. after alignment, vector=0x1194b1000
+00000000000i[MEM0  ] 128.00MB
+00000000000i[MEM0  ] mem block size = 0x00020000, blocks=1024
+00000000000p[MEM0  ] >>PANIC<< ROM: couldn't open ROM image file '/usr/share/bochs/BIOS-bochs-latest'.
+00000000000i[      ] lt_dlhandle is 0x7f837744f080
+00000000000i[PLUGIN] loaded plugin libbx_hdimage.so
+00000000000i[      ] lt_dlhandle is 0x7f837744f4f0
+00000000000i[PLUGIN] loaded plugin libbx_pci.so
+00000000000i[      ] lt_dlhandle is 0x7f837744fa70
+00000000000i[PLUGIN] loaded plugin libbx_pci2isa.so
+00000000000i[      ] lt_dlhandle is 0x7f83774500d0
+00000000000i[PLUGIN] loaded plugin libbx_usb_uhci.so
+00000000000i[      ] lt_dlhandle is 0x7f8377451cb0
+00000000000i[PLUGIN] loaded plugin libbx_acpi.so
+00000000000i[      ] lt_dlhandle is 0x7f8377452670
+00000000000i[PLUGIN] loaded plugin libbx_hpet.so
+00000000000i[      ] lt_dlhandle is 0x7f8377452960
+00000000000i[PLUGIN] loaded plugin libbx_cmos.so
+00000000000i[      ] lt_dlhandle is 0x7f8377452de0
+00000000000i[PLUGIN] loaded plugin libbx_dma.so
+00000000000i[      ] lt_dlhandle is 0x7f8377453550
+00000000000i[PLUGIN] loaded plugin libbx_pic.so
+00000000000i[      ] lt_dlhandle is 0x7f83774539b0
+00000000000i[PLUGIN] loaded plugin libbx_pit.so
+00000000000i[      ] lt_dlhandle is 0x7f8377453e70
+00000000000i[PLUGIN] loaded plugin libbx_vga.so
+00000000000i[      ] lt_dlhandle is 0x7f8377454180
+00000000000i[PLUGIN] loaded plugin libbx_floppy.so
+00000000000i[      ] lt_dlhandle is 0x7f8377454810
+00000000000i[PLUGIN] loaded plugin libbx_ioapic.so
+00000000000i[      ] lt_dlhandle is 0x7f8377454c50
+00000000000i[PLUGIN] loaded plugin libbx_keyboard.so
+00000000000i[      ] lt_dlhandle is 0x7f837773f230
+00000000000i[PLUGIN] loaded plugin libbx_harddrv.so
+00000000000i[      ] lt_dlhandle is 0x7f83777674a0
+00000000000i[PLUGIN] loaded plugin libbx_pci_ide.so
+00000000000i[PLUGIN] init_dev of 'pci' plugin device by virtual method
+00000000000i[DEV   ] i440FX PMC present at device 0, function 0
+00000000000i[PLUGIN] init_dev of 'pci2isa' plugin device by virtual method
+00000000000i[DEV   ] PIIX3 PCI-to-ISA bridge present at device 1, function 0
+00000000000i[PLUGIN] init_dev of 'cmos' plugin device by virtual method
+00000000000i[CMOS  ] Using local time for initial clock
+00000000000i[CMOS  ] Setting initial clock to: Sat Oct  8 22:48:58 2022 (time0=1665254938)
+00000000000i[PLUGIN] init_dev of 'dma' plugin device by virtual method
+00000000000i[DMA   ] channel 4 used by cascade
+00000000000i[PLUGIN] init_dev of 'pic' plugin device by virtual method
+00000000000i[PLUGIN] init_dev of 'pit' plugin device by virtual method
+00000000000i[PLUGIN] init_dev of 'vga' plugin device by virtual method
+00000000000i[MEM0  ] Register memory access handlers: 0x0000000a0000 - 0x0000000bffff
+00000000000i[VGA   ] interval=200000, mode=realtime
+00000000000i[VGA   ] VSYNC using standard mode
+00000000000i[MEM0  ] Register memory access handlers: 0x0000e0000000 - 0x0000e0ffffff
+00000000000i[BXVGA ] VBE Bochs Display Extension Enabled
+00000000000p[SDL2  ] >>PANIC<< Unknown sdl option 'gui_debug'
+00000000000p[MEM0  ] >>PANIC<< ROM: couldn't open ROM image file '/usr/share/bochs/VGABIOS-lgpl-latest'.
+00000000000i[SIM   ] quit_sim called with exit code 1

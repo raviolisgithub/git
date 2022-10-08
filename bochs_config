@@ -4,4 +4,7 @@ vgaromimage: file=/usr/share/bochs/VGABIOS-lgpl-latest
 floppya: 1_44=build/main_floppy.img, status=inserted
 boot: floppy
 mouse: enabled=0
-display_library: sdl2, options="debug"
+display_library: sdl2, options="gui_debug"
+port_e9_hack: enabled=1
+
+log: bochsout.log
