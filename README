@@ -18,4 +18,15 @@ Kernel dir (src/kernel):
 run.sh:
     just runs the qemu cmd with this file
 
+debug.sh:
+    Debugs the os
+
+boot.img:
+    activating all bootloaders
+
+bochs_files:
+    they're all necessery for debugging
+
+
+
 
