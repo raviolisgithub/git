@@ -1,8 +1,12 @@
---Update 0.1 (09/2022)
---First  Update
---Hello world message
+-Update 0.1 (09/2022)
+-First  Update
+-Hello world message
 
---Update 0.2 (10/02/2022)
---Added kernal, bootloaders and FAT Support
---Added test.img
+-Update 0.2 (10/02/2022)
+-Added kernal, bootloaders and FAT Support
+-Added test.img
 -Added Bochs Support
+
+-Update 0.3 (10/09/2022)
+-Added FAT File System
+THIS UPDATE IS STILL IN PROGRESS.

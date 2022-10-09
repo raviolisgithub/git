@@ -28,6 +28,7 @@ boot.img:
 bochs_files:
     they're all necessery for debugging
 
-
+tools/fat/fat.c:
+    Building the FAT File system with C
 
 
