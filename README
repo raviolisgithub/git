@@ -2,6 +2,7 @@ This file was made of how the OS works.
 
 Build dir:
 Our floppy images (.img) and bin files (.bin)
+Build DIR is not shown due to git reasons and to obtain the OS you have to contact ravioli.
 
 src dir:
     Where we code our OS
